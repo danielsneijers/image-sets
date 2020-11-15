@@ -1,0 +1,13 @@
+{
+  "name": "image-sets",
+  "version": "1.0.0",
+  "description": "Generates sets of images for web in different sizes and file formats",
+  "main": "index.js",
+  "repository": "https://github.com/danielsneijers/image-sets.git",
+  "author": "Daniel Sneijers <daniel.sneijers@gmail.com> (https://github.com/danielsneijers)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "sharp": "^0.26.2"
+  }
+}

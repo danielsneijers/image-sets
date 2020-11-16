@@ -6,10 +6,6 @@ Generates sets of images for web in different sizes and file formats
 
 I needed an easy way to just generate a set of sensible responsive images for any given web project. Image-sets recursively scans a folder for supported images and converts them a responsive set of images in 3 predefined sizes.
 
-image url: https://unsplash.com/photos/64ajtpEzlYc
-https://unsplash.com/photos/uhjEIqGaqjo
-https://unsplash.com/photos/K6a8laaDdsA
-
 ## Basic example
 
 ```bash

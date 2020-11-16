@@ -1,4 +1,4 @@
-function convertImages(images, outputDir) {
+function convertImages(images, outputDir = null) {
   console.log(images);
 }
 

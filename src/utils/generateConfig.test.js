@@ -24,17 +24,16 @@ describe('utils / generateConfig', () => {
       const config = generateConfig();
       expect(config).toEqual({ 
         inputDir: path.resolve('./images'), 
-        outputDir: path.resolve('./images') 
+        outputDir: null 
       });
     })
   })
 
   describe('when only inputDir provided', () => {
-    test('warns the user of using the same output as input directory', () => {
+    test('provides no warnings', () => {
       const input = './example';
       generateConfig({ input });
-      expect(console.log).toBeCalledWith(expect.stringContaining(`No output directory provided`));
-      expect(console.log).toBeCalledWith(expect.stringContaining(`${input}`));
+      expect(console.log).not.toBeCalled();
     });
   })
 

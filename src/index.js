@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-// const fs = require("fs");
-// const sharp = require("sharp");
 const chalk = require('chalk');
 const yargs = require('yargs/yargs');
 const generateConfig = require('./utils/generateConfig');

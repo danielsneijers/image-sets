@@ -2,6 +2,9 @@
 /node_modules
 /coverage
 /build
+/output/*.jpg
+/output/*.png
+/output/*.webp
 
 .DS_Store
 .vscode

@@ -4,15 +4,12 @@ const chalk = require('chalk');
 
 const supportedFileFormat = [
   '.jpg', 
-  '.jpeg', 
-  '.tif',
-  '.tiff', 
+  '.jpeg',  
   '.png', 
-  '.svg', 
-  '.gif',
   '.webp',
   '.heif', 
   '.heic',
+  // no resizing of .svg files needed
 ];
 
 const prefixWith = prefix => file => `${prefix}/${file}`;

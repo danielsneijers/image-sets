@@ -1,6 +1,6 @@
 {
   "name": "image-sets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates sets of images for web in different sizes and file formats",
   "main": "./src/index.js",
   "repository": "https://github.com/danielsneijers/image-sets.git",
@@ -11,7 +11,7 @@
     "node": ">=10.16"
   },
   "bin": {
-    "image-sets": "./src/index.js"
+    "image-sets": "src/index.js"
   },
   "scripts": {
     "start": "node ./src/index.js --input='./example' --output='./output'",
